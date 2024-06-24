@@ -1,11 +1,8 @@
 import SwiftUI
 
-var greeting = "Hello, playground"
-print(greeting)
-greeting = "Hi"
-print(greeting)
+let celsius = 20
+var fahrenheit = celsius * 9/5 + 32
 
-let name = "Dominic"
-print(name)
+print("The fehrenheit tempature is \(fahrenheit) and the celsius tempature is \(celsius).")
 
 
