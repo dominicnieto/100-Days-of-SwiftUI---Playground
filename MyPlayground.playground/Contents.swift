@@ -24,7 +24,7 @@ enum Weather {
     case sun, rain, wind, snow, unknown
 }
 
-let forecast = Weather.sun
+let forecast = Weather.wind
 
 switch forecast {
 case .sun:
@@ -38,3 +38,15 @@ case .snow:
 case .unknown:
     print("The forcast is broken!")
 }
+
+let place = "Metropolis"
+
+switch place {
+case "Gotham":
+    print("You are Batman!")
+case "Metropolis":
+    print("You are cool!")
+default:
+    "Who are you?"
+}
+
