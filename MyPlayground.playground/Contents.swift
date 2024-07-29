@@ -11,15 +11,3 @@ for i in 1...100 {
         print(i)
     }
 }
-
-let place = "Metropolis"
-
-switch place {
-case "Gotham":
-    print("You are Batman!")
-case "Metropolis":
-    print("You are cool!")
-default:
-    "Who are you?"
-}
-
